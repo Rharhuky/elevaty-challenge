@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Elevaty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="pessoas-section">
+        <h1>Dados das Pessoas</h1>
+        
+        <div class="flex-container">
+            <div id="pessoas-container"></div>                    
+            <div id="informacoes-adicionais-container">
+                <div id="informacoes-adicionais"></div>
+               
+            </div>
+        </div>
+
+        <div id="detalhes-button-container">
+            
+            <button style="background-color: rgb(137, 115, 1);" id="detalhes-button" onclick="exibirDetalhes()">Exibir Detalhes</button>
+
+            <button style="background-color: rgb(24, 118, 24);"id="pdf-button" onclick="obterPdf()">Visualizar PDF</button>
+            <button style="background-color: red;"   id="bt-remover" onclick="removerPessoa()">remover</button>
+            
+<button id="ordenar-button" onclick="ordenarPessoas()">Ordenar</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
