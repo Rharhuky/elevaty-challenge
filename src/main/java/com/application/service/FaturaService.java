@@ -3,6 +3,7 @@ package com.application.service;
 import com.application.configuracao.ConfiguracaoFatura;
 import com.application.payload.dto.PessoaDTO;
 import com.application.utils.Constantes;
+import com.application.utils.ElevatyDetails;
 import jakarta.servlet.http.HttpServletRequest;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
@@ -84,12 +85,40 @@ public class FaturaService {
 
         if(! Objects.isNull(acroForm)){
 
-            acroForm.getField("Your company name").setValue("Elevaty");
-            acroForm.getField("Comapny address").setValue("Alphaville - Baruaeri - SP - 06454-000");
-            acroForm.getField("Company contact details").setValue("Instagram: elevaty.tech\nLinkedin: elevaty-tech");
-            acroForm.getField("Billing to").setValue(pessoaDTO.getEmail());
-            acroForm.getField("Invoice Date:").setValue(LocalDate.now().toString());
-            acroForm.getField("Invoice number").setValue("00001");
+            acroForm.getField("Your company name").setValue         (ElevatyDetails.NOME_EMPRESA);
+            acroForm.getField("Comapny address").setValue           (ElevatyDetails.ENDERECO);
+            acroForm.getField("Company contact details").setValue   (ElevatyDetails.CONTATO);
+
+            acroForm.getField("Billing to").setValue                (pessoaDTO.toString());
+            acroForm.getField("Invoice Date:").setValue             ("0001");
+            acroForm.getField("Invoice number").setValue(LocalDate.now().toString());
+
+            acroForm.getField("Your item name").setValue("Notebook");
+            acroForm.getField("Your item name 2").setValue("AMERICANAS");
+            acroForm.getField("Your item name 3").setValue("Spring Boot Course - Udemy");
+            acroForm.getField("Your item name 4").setValue("I WANT this oportunity");
+            acroForm.getField("Your item name 5").setValue("KeyBoard");
+            acroForm.getField("Your item name 6").setValue("Air conditioning workshop");
+            acroForm.getField("Your item name 7").setValue("BigBomPreco");
+            acroForm.getField("Your item name 8").setValue("PagSeguro");
+
+            float invoiceTotal = 0;
+            float currentValue;
+            String cost;
+
+            for(int i = 1; i < 9; i ++){
+
+                currentValue = ElevatyDetails.randomAmount();
+                cost = String.format("$%6.2f", currentValue);
+
+                acroForm.getField("Unit cost "+i).setValue(cost);
+                acroForm.getField("Amount "+i).setValue(cost);
+
+                invoiceTotal += currentValue;
+            }
+
+            acroForm.getField("Subtotal").setValue(String.format("%.2f", invoiceTotal));
+            acroForm.getField("Total").setValue(String.format("%.2f", invoiceTotal));
             return true;
 
         }

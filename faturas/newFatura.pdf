@@ -190,7 +190,7 @@ endobj
 /Subtype /Widget
 /T (Company contact details)
 /Type /Annot
-/V <496E7374616772616D3A20656C65766174792E746563680A4C696E6B6564696E3A20656C65766174792D74656368>
+/V <496E7374616772616D3A20656C65766174792E746563680A4C696E6B6564696E3A20656C65766174792D746563680A4174656E64696D656E746F3A0A7777772E736E787061792E636F6D>
 >>
 endobj
 13 0 obj
@@ -209,7 +209,7 @@ endobj
 /Subtype /Widget
 /T (Billing to)
 /Type /Annot
-/V (nmcdermott@gmail.com)
+/V <436F726E656C6C205374726F73696E0A35323931204B656172612052697665720A4C616B652043796E746869612050616C6175200A34313438312D313135330A2B343330393033373332373939330A>
 >>
 endobj
 14 0 obj
@@ -227,7 +227,7 @@ endobj
 /Subtype /Widget
 /T (Invoice Date:)
 /Type /Annot
-/V (2023-12-12)
+/V (0001)
 >>
 endobj
 15 0 obj
@@ -245,7 +245,7 @@ endobj
 /Subtype /Widget
 /T (Invoice number)
 /Type /Annot
-/V (00001)
+/V (2023-12-13)
 >>
 endobj
 16 0 obj
@@ -263,7 +263,7 @@ endobj
 /Subtype /Widget
 /T (Your item name)
 /Type /Annot
-/V (Your item name)
+/V (Notebook)
 >>
 endobj
 17 0 obj
@@ -281,7 +281,7 @@ endobj
 /Subtype /Widget
 /T (Your item name 2)
 /Type /Annot
-/V (Your item name)
+/V (AMERICANAS)
 >>
 endobj
 18 0 obj
@@ -299,7 +299,7 @@ endobj
 /Subtype /Widget
 /T (Your item name 3)
 /Type /Annot
-/V (Your item name)
+/V (Spring Boot Course - Udemy)
 >>
 endobj
 19 0 obj
@@ -317,7 +317,7 @@ endobj
 /Subtype /Widget
 /T (Your item name 4)
 /Type /Annot
-/V (Your item name)
+/V (I WANT this oportunity)
 >>
 endobj
 20 0 obj
@@ -335,7 +335,7 @@ endobj
 /Subtype /Widget
 /T (Your item name 5)
 /Type /Annot
-/V (Your item name)
+/V (KeyBoard)
 >>
 endobj
 21 0 obj
@@ -353,7 +353,7 @@ endobj
 /Subtype /Widget
 /T (Your item name 6)
 /Type /Annot
-/V (Your item name)
+/V (Air conditioning workshop)
 >>
 endobj
 22 0 obj
@@ -371,7 +371,7 @@ endobj
 /Subtype /Widget
 /T (Your item name 7)
 /Type /Annot
-/V (Your item name)
+/V (BigBomPreco)
 >>
 endobj
 23 0 obj
@@ -389,7 +389,7 @@ endobj
 /Subtype /Widget
 /T (Your item name 8)
 /Type /Annot
-/V (Your item name)
+/V (PagSeguro)
 >>
 endobj
 24 0 obj
@@ -408,7 +408,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 1)
 /Type /Annot
-/V ($0.00)
+/V ($2650,85)
 >>
 endobj
 25 0 obj
@@ -427,7 +427,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 2)
 /Type /Annot
-/V ($0.00)
+/V ($616,45)
 >>
 endobj
 26 0 obj
@@ -446,7 +446,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 3)
 /Type /Annot
-/V ($0.00)
+/V ($2142,98)
 >>
 endobj
 27 0 obj
@@ -465,7 +465,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 4)
 /Type /Annot
-/V ($0.00)
+/V ($2658,28)
 >>
 endobj
 28 0 obj
@@ -484,7 +484,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 5)
 /Type /Annot
-/V ($0.00)
+/V ($2407,82)
 >>
 endobj
 29 0 obj
@@ -503,7 +503,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 6)
 /Type /Annot
-/V ($0.00)
+/V ($2878,69)
 >>
 endobj
 30 0 obj
@@ -522,7 +522,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 7)
 /Type /Annot
-/V ($0.00)
+/V ($2252,47)
 >>
 endobj
 31 0 obj
@@ -541,7 +541,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 8)
 /Type /Annot
-/V ($0.00)
+/V ($ 43,88)
 >>
 endobj
 32 0 obj
@@ -712,7 +712,7 @@ endobj
 /Subtype /Widget
 /T (Subtotal)
 /Type /Annot
-/V ($0.00)
+/V (15651,42)
 >>
 endobj
 41 0 obj
@@ -788,7 +788,7 @@ endobj
 /Subtype /Widget
 /T (Total)
 /Type /Annot
-/V ($0.00)
+/V (15651,42)
 >>
 endobj
 45 0 obj
@@ -807,7 +807,7 @@ endobj
 /Subtype /Widget
 /T (Amount 8)
 /Type /Annot
-/V ($0.00)
+/V ($ 43,88)
 >>
 endobj
 46 0 obj
@@ -826,7 +826,7 @@ endobj
 /Subtype /Widget
 /T (Amount 7)
 /Type /Annot
-/V ($0.00)
+/V ($2252,47)
 >>
 endobj
 47 0 obj
@@ -845,7 +845,7 @@ endobj
 /Subtype /Widget
 /T (Amount 6)
 /Type /Annot
-/V ($0.00)
+/V ($2878,69)
 >>
 endobj
 48 0 obj
@@ -864,7 +864,7 @@ endobj
 /Subtype /Widget
 /T (Amount 5)
 /Type /Annot
-/V ($0.00)
+/V ($2407,82)
 >>
 endobj
 49 0 obj
@@ -883,7 +883,7 @@ endobj
 /Subtype /Widget
 /T (Amount 4)
 /Type /Annot
-/V ($0.00)
+/V ($2658,28)
 >>
 endobj
 50 0 obj
@@ -902,7 +902,7 @@ endobj
 /Subtype /Widget
 /T (Amount 1)
 /Type /Annot
-/V ($0.00)
+/V ($2650,85)
 >>
 endobj
 51 0 obj
@@ -921,7 +921,7 @@ endobj
 /Subtype /Widget
 /T (Amount 2)
 /Type /Annot
-/V ($0.00)
+/V ($616,45)
 >>
 endobj
 52 0 obj
@@ -940,7 +940,7 @@ endobj
 /Subtype /Widget
 /T (Amount 3)
 /Type /Annot
-/V ($0.00)
+/V ($2142,98)
 >>
 endobj
 53 0 obj
@@ -1003,7 +1003,7 @@ endstream
 endobj
 56 0 obj
 <<
-/Length 181
+/Length 225
 /BBox [0.0 0.0 113.194 66.6318]
 /Filter /FlateDecode
 /FormType 1
@@ -1019,13 +1019,13 @@ endobj
 /Type /XObject
 >>
 stream
-xœ]=‚0†÷û7ê@iK[ÀEc¢ƒIç¦TÅù÷ÖÊ¢¹í}rÏİëû%ÀúaŒ°\ D%,ÃÖÁ(4ÄkŒ¢>A¼rCmİ¦5#Ú(v8Ê„ĞÔoè
-fÛ¦ëÍ¹5ÎQ_ARBY.‘êîn0ıHJŠçê½„8Ê|q‘Hª wussUİLRÁIFSõ+¾Réï	õ/-5 ü”}­˜;ç
+xœm½NÃ0F÷ûw„!ÿãt£PH–˜-Ç@€¸XMûö7C•·ïø×µİãúñàæÃa­D-‰Ìàà"¬-Ô·EûõMØõ>Üî€~Š“JÚä	ÛÁÅ}œ’{İ°ÂK´ï (¡¬UHŸaçÒ$$‘š·JÁ¿•¸297\b•)]àC?B×ÇE*91´Ñ¥ÕQªò{Rÿ“61œ‹SéU
+±ë‡ÓvU.ÑS:Ïó±&Ïu¤‹qŠû/wv¿Jº±ğ›ßı‰ÀVm
 endstream
 endobj
 57 0 obj
 <<
-/Length 127
+/Length 232
 /BBox [0.0 0.0 159.756 81.36]
 /Filter [/FlateDecode]
 /FormType 1
@@ -1041,13 +1041,12 @@ endobj
 /Type /XObject
 >>
 stream
-xœ½
-Â0 ÷ï)¾Q—üTš4›T«“ƒp.i”Ši1-¢o¯–Ûƒ“şÍú´ĞüQZaKCëÄÆ0G\0 ö‡‚ZÑ_!÷ñÕ‡xÌí‡a‚âPĞXQÑwX)t1§q··Ôö±¦¿£rÂh§©–&Œi±ÇÍşš!q
+xœMMOÄ @ïó+æ¨1¥P®[WjâÉIÅXmº‘®÷ßÛİrh¸ñxo2Ôá7O-ÀÎÇ8áŒEç…¶˜ì`„M€úN!IPß¦cß¥ûOØM qê@¡u¢ÁğWí>iğÃhl”òvÈû©/ *¤"ó´36ÊÓb)#¤b.ÚCŠ9à[åxí)/53×§×¹ÇøŠÅk«=‡Ï¾µ¶a[Ğsâï*K‚Ø™u‘‰ªo¦Ú¹â]¶*÷+ë†µôR;­œ÷Ë³m€Øÿü{ÅV]
 endstream
 endobj
 58 0 obj
 <<
-/Length 108
+/Length 102
 /BBox [0.0 0.0 73.505 16.5552]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1073,7 +1072,7 @@ BT
 /DeviceGray cs
 0 sc
 2 4.6876 Td
-(2023-12-12) Tj
+(0001) Tj
 ET
 Q
 EMC
@@ -1083,7 +1082,7 @@ endstream
 endobj
 59 0 obj
 <<
-/Length 103
+/Length 108
 /BBox [0.0 0.0 73.505 17.2174]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1109,7 +1108,7 @@ BT
 /DeviceGray cs
 0 sc
 2 5.0187 Td
-(00001) Tj
+(2023-12-13) Tj
 ET
 Q
 EMC
@@ -1119,7 +1118,7 @@ endstream
 endobj
 60 0 obj
 <<
-/Length 117
+/Length 106
 /BBox [0.0 0.0 158.032 22.0]
 /Filter /FlateDecode
 /FormType 1
@@ -1134,13 +1133,12 @@ endobj
 /Type /XObject
 >>
 stream
-H‰,ÈÁ
-‚@ĞııŠ»ÌÍøæ©“m¡á´š"I#±èó‘³;©}Yµ5ñ‚ç_œdšS…sD	•!=ÆÇ‡^hWoPîhìNÏ÷Ì„6@3W–²ö}‰ãÖŞ…"ßz:qİÆĞ¡ikü ?×@
+xœÓ©Ppòuæâ*ä2T BS3=c##…¢T®p®<.§.}Ôœ2C…4.}—Ô²ÌäT÷¢ÄJ…äb.…âd.#s=C….¿ü’Ô¤üülM…,.×®@.Wá ìp>
 endstream
 endobj
 61 0 obj
 <<
-/Length 118
+/Length 108
 /BBox [0.0 0.0 157.688 22.0]
 /Filter /FlateDecode
 /FormType 1
@@ -1155,13 +1153,12 @@ endobj
 /Type /XObject
 >>
 stream
-H‰,È½
-ƒ0Ğı>Åë“´‰qU‡Â¥c¡Q*şP©¥o9ÛIåÇ¢)‰7ÿœS>d9­æqÃ„BÖqøÒhJÍ–™²9å‰Ó}^&”ö¬BğÔ{¿>q<Ú(ï.GO1î[	®¨š›  H;T
+xœÓ©Ppòuæâ*ä2T BSS=3#…¢T®p®<.§.}Ôœ2C…4.}—Ô²ÌäT÷¢ÄJ…äb.…âd.#s=C….G_× OgG?Ç`M…,.×®@.Wñ ˆá
 endstream
 endobj
 62 0 obj
 <<
-/Length 117
+/Length 119
 /BBox [0.0 0.0 158.227 22.0]
 /Filter /FlateDecode
 /FormType 1
@@ -1176,8 +1173,7 @@ endobj
 /Type /XObject
 >>
 stream
-H‰,ÈÁ
-‚@ĞııŠ»¬Í8óÊÉÙ*‚Âƒp)4E‘Š’Ñç"gwı1¯b‚ã_êˆË9âŠ¹"©âûKg©wX> ¼	Ôí¸Ì<R_“É2O»õóû½ñéyï¡ëã¶¥¢AYX DJ
+xœÍÁÁ@ĞııŠ»d¡Ó™ û©†…xb-ÓG*t˜¡Ñ¿GÎ#úm<aù³XÎUt%“âˆ^`6zhKÊf¥CtN#CFÉàXsKi1Ù?R×_èc|±ï”•3Z½SÊ`‡æß}#,
 endstream
 endobj
 63 0 obj
@@ -1197,13 +1193,14 @@ endobj
 /Type /XObject
 >>
 stream
-H‰,ÈÁ
-‚@ĞııŠ»¬Íøæåè´U„6.„Ñ2hŠ"¤ÄÏ/DÎîd6³jkâÏ¿\T)©Â1áˆ•!;¤çD/´+„7(K§{Ú›Óë;rK{@w.Æ‚²ôı“úµ½+B¾öpîÓ²¡CÓÖø	0 BÌG
+xœÍK
+Â0Ğù]Åê¤ù`Ñ©Õ¢„KŒ4"ı$±Øİ«œ%Vç0Âğ§,‹5´šÑ£A‡J ş5ÑhÊjï§àü!ŞfºÍä`¹.V†rÇâÄf{æ6$öCó»y^R¨WÔÿê„v
+
 endstream
 endobj
 64 0 obj
 <<
-/Length 117
+/Length 106
 /BBox [0.0 0.0 157.684 22.0]
 /Filter /FlateDecode
 /FormType 1
@@ -1218,12 +1215,12 @@ endobj
 /Type /XObject
 >>
 stream
-H‰,ÈA‚0àûû+Şc]æ6·5¯ŠĞÅCğtZQ¤¢Xøó‘çöd²°l*b„áÊ{¢s´šSB‹¥ ;§ÏFSĞ|Âò¤lA¹ãp¾”7l®bÔ[¿æÔímTğnïşÖ¥mkÁuSá/À DèL
+xœÓ©Ppòuæâ*ä2T BSS=3#…¢T®p®<.§.}Ôœ2C…4.}—Ô²ÌäT÷¢ÄJ…äb.…âd.#s=C….ïÔJ§üÄ¢M…,.×®@.Wá ì“
 endstream
 endobj
 65 0 obj
 <<
-/Length 117
+/Length 119
 /BBox [0.0 0.0 157.684 22.0]
 /Filter /FlateDecode
 /FormType 1
@@ -1238,12 +1235,12 @@ endobj
 /Type /XObject
 >>
 stream
-H‰,ÈA‚0àûû+Şc]æ6·5¯ŠĞÅCğtZQ¤¢Xøó‘çöd²°l*b„áÊ{¢s´šSB‹¥ ;§ÏFSĞ|Âò¤lA¹ãp¾”7l®bÔ[¿æÔímTğnïşÖ¥mkÁuSá/À DèL
+xœÍ±‚0Ğı~Åu¡-u$º8˜¼ÄÙ”*UÒjkPÿ^Íù€£äÍfßşÔu±XU,5“Ã@íÜ8ÑhÊjã&oİ6>´šÙ¢ä²¨¥Çlím½ú|¸ğÓ-ñ>§\Ñ	èşÛXç
 endstream
 endobj
 66 0 obj
 <<
-/Length 117
+/Length 108
 /BBox [0.0 0.0 157.684 22.0]
 /Filter /FlateDecode
 /FormType 1
@@ -1258,12 +1255,13 @@ endobj
 /Type /XObject
 >>
 stream
-H‰,ÈA‚0àûû+Şc]æ6·5¯ŠĞÅCğtZQ¤¢Xøó‘çöd²°l*b„áÊ{¢s´šSB‹¥ ;§ÏFSĞ|Âò¤lA¹ãp¾”7l®bÔ[¿æÔímTğnïşÖ¥mkÁuSá/À DèL
+xœÌÁ
+‚@ĞııŠ»Ô3#j­'E7AÁƒÖ1½DÉ¤Dÿ¾âì‘ş|>pü)Ë¬:Ì-£â†7¼ÀtúZé,å	Së:mã}gX`¹ä<d…£<ø¡÷ót‰æ”2¢\Ñüÿ/@Í2
 endstream
 endobj
 67 0 obj
 <<
-/Length 117
+/Length 107
 /BBox [0.0 0.0 157.369 22.0]
 /Filter /FlateDecode
 /FormType 1
@@ -1278,13 +1276,13 @@ endobj
 /Type /XObject
 >>
 stream
-H‰,È±
-ƒ0Ğı~Åë“hR]ÁÅ¡ğ t,KKU?¿Eäl'–ESÿœS‰ÏSZÍ9à… ®Ãw£Ñ”š/X^•Í)-.qQ>°‰Ê2O}ô{	ıÙFy—=<ûpl%¸¡jJü DàL
+xœÓ©Ppòuæâ*ä2T BSS=c3K#…¢T®p®<.§.}Ôœ2C…4.}—Ô²ÌäT÷¢ÄJ…äb.…âd.#s=C….€ÄôàÔôÒ¢|M…,.×®@.Wé 
+o–
 endstream
 endobj
 68 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 67.6425 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1298,25 +1296,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 65.6425 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-40.622 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+23.9335 7.41 Td
+($2650,85) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 69 0 obj
 <<
-/Length 87
+/Length 106
 /BBox [0.0 0.0 67.9895 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1330,25 +1331,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 65.9895 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-40.969 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+29.842 7.41 Td
+($616,45) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 70 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 67.9895 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1362,25 +1366,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 65.9895 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-40.969 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+24.2805 7.41 Td
+($2142,98) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 71 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 67.9575 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1394,25 +1401,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 65.9575 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-40.938 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+24.2485 7.41 Td
+($2658,28) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 72 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 67.9575 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1426,25 +1436,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 65.9575 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-40.938 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+24.2485 7.41 Td
+($2407,82) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 73 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 67.9575 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1458,25 +1471,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 65.9575 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-40.938 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+24.2485 7.41 Td
+($2878,69) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 74 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 68.3045 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1490,25 +1506,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 66.3045 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-41.284 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+24.5955 7.41 Td
+($2252,47) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 75 0 obj
 <<
-/Length 87
+/Length 107
 /BBox [0.0 0.0 68.3365 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1522,19 +1541,22 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 66.3365 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-41.316 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+32.9722 7.41 Td
+($ 43,88) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
@@ -1796,7 +1818,7 @@ endstream
 endobj
 84 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 89.0758 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1810,19 +1832,22 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 87.0758 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-62.056 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+45.3668 7.41 Td
+(15651,42) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
@@ -1924,7 +1949,7 @@ endstream
 endobj
 88 0 obj
 <<
-/Length 113
+/Length 123
 /BBox [0.0 0.0 101.832 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1938,25 +1963,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 99.832 20 re
 W
 n
 BT
 /HeBo 16 Tf
-0.289993 0.360001 0.399994 rg
-59.806 4.792 Td
-($0.00) Tj
+/DeviceRGB cs
+0.292 0.361 0.399 sc
+33.0976 5.256 Td
+(15651,42) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 89 0 obj
 <<
-/Length 87
+/Length 107
 /BBox [0.0 0.0 62.1921 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1970,25 +1998,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 60.1921 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-35.172 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+26.8278 7.41 Td
+($ 43,88) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 90 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 62.6467 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -2002,25 +2033,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 60.6467 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-35.627 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+18.9377 7.41 Td
+($2252,47) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 91 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 62.1921 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -2034,25 +2068,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 60.1921 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-35.172 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+18.4831 7.41 Td
+($2878,69) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 92 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 62.1921 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -2066,25 +2103,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 60.1921 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-35.172 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+18.4831 7.41 Td
+($2407,82) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 93 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 62.6467 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -2098,25 +2138,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 60.6467 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-35.627 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+18.9377 7.41 Td
+($2658,28) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 94 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 63.4783 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -2130,25 +2173,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 61.4783 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-36.458 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+19.7693 7.41 Td
+($2650,85) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 95 0 obj
 <<
-/Length 86
+/Length 106
 /BBox [0.0 0.0 63.232 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -2162,25 +2208,28 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 61.232 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-36.212 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+25.0845 7.41 Td
+($616,45) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
 96 0 obj
 <<
-/Length 87
+/Length 108
 /BBox [0.0 0.0 63.3486 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -2194,19 +2243,22 @@ endobj
 /Type /XObject
 >>
 stream
-/Tx BMC 
+/Tx BMC
+
 q
 1 1 61.3486 20 re
 W
 n
 BT
 /Helv 10 Tf
-0 g
-36.329 7.29 Td
-($0.00) Tj
+/DeviceGray cs
+0 sc
+19.6396 7.41 Td
+($2142,98) Tj
 ET
 Q
 EMC
+
 
 endstream
 endobj
@@ -3016,7 +3068,7 @@ endstream
 endobj
 116 0 obj
 <<
-/Length 320
+/Length 322
 /ID [(some) <9DC79D205C2D77D0E8553A8340BCC46B>]
 /Info 5 0 R
 /Root 1 0 R
@@ -3027,9 +3079,9 @@ endobj
 /Filter /FlateDecode
 >>
 stream
-xœÁK(ƒ ÀñïÏÁqÉflø0occ„5¢‘e,CkÍ{”mSÔ'É™â‚Hâ"Q+‹‹“8Q‹‘”›ÄAùıA@!5‡LàFfGDşŒ¢Åñ~”–Iô¢*Cõ‡úŠ¤u’'H± Æ">“zDÚ<é64qhÂdl‘9BV1Yßd_³HnyròÂäo¢õ Ó¢û  Dáú*ô¿İP¼‚¡£ˆñ…’=J½˜˜¾(¿¥ÂBå'æ},ùTKÔÜRk¦n«Œúii´b; I‰½‘æYZp¼ÒªÆi§M¢=DÇ+Jº¬tOÓ³‹ëw½&úFéß`àO4ƒ†>aä±tÆÛğ.1qÆä;SøôøVğıàïÅI@GÀE@"xˆ´Ê–SîDÚ‰lóxÎ“ø[e
+xœÁK(Ã ÀáÿÏ™Zb&oæ9=¼æÚ„Èd–çX6y„ØfY+%‘£j9²ò¸ %‡•ìè1å&m\Ü|Ÿ bÄ3b=	.‚HtHöH\Dj#é‘d%É¿¤\“ºNš‘t5"2d’å!»™Ù9'ä.’×H¾ˆü ‡Ú#StA±›¥1”úQì¢4¡JGõ‚ÚG™‹r-"*¨Ü§Ê‚F&DŸºê¿hğÓt…6•æ[Z2iİ -L»K:“Ğ/ÑuCw4†nz0~Ò«¤o™ş;~’a20¼ÊÈæFã±h±n1v‹-Äx.n&ï™Šcz™cf¿™«fŞÃÂKçØc°ÏbÆQ‹ãgNNîMÖæñFâİæUÁ»Š÷‚;ÿş^mY[
 endstream
 endobj
 startxref
-81513
+82243
 %%EOF

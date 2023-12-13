@@ -50,7 +50,7 @@ class FaturaServiceTest {
                 for (PDField field : acroForm.getFields()) {
                     System.out.println("Nome do Campo: " + field.getFullyQualifiedName() + field.getValueAsString());
                 }
-                document.save("faturas/newDocument.pdf");
+                //document.save("faturas/newDocument.pdf");
             } else {
                 // FIXME using CustomException
                 System.out.println("O PDF não possui campos de formulário editáveis.");

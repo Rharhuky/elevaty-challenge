@@ -1,11 +1,10 @@
 package com.application.payload.dto;
 
 import com.application.model.Pessoa;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 
@@ -22,4 +21,8 @@ public class EnderecoDTO {
     private Double latitude;
     private Double longitude;
 
+    @Override
+    public String toString() {
+        return String.format("%s %s\n%s %s \n%s",numero,nomeRua, cidade, pais, zipCode);
+    }
 }
