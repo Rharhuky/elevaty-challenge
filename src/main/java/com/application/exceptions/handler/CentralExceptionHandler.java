@@ -7,7 +7,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
@@ -57,4 +57,16 @@ public class CentralExceptionHandler extends ResponseEntityExceptionHandler {
 
     }
 
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<DetalhesErro> handleGenericException(Exception exception, NativeWebRequest webRequest){
+
+        DetalhesErro detalhesErro = DetalhesErro.builder()
+                .localDateTime(LocalDateTime.now())
+                .rota(webRequest.getDescription(false))
+                .mensagem(exception.getMessage())
+                .build();
+
+        return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(detalhesErro);
+
+    }
 }

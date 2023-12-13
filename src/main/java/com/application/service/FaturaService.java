@@ -78,7 +78,6 @@ public class FaturaService {
             document.save(Constantes.DEFAULT_NEW_FATURA_PDF_PATH);
 
         document.close();
-
     }
 
 

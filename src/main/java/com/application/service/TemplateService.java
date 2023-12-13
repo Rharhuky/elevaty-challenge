@@ -1,7 +1,6 @@
 package com.application.service;
 
 import com.application.exceptions.DataMalFormulada;
-import com.application.model.Cartao;
 import com.application.model.Endereco;
 import com.application.model.Pessoa;
 import com.application.payload.TemplateCartao;
@@ -12,11 +11,8 @@ import com.application.utils.Constantes;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import org.yaml.snakeyaml.scanner.Constant;
 
-import java.net.URL;
 import java.time.LocalDate;
-import java.util.Calendar;
 import java.util.List;
 import java.util.Objects;
 import java.util.Random;
@@ -33,7 +29,7 @@ public class TemplateService {
     private String seed;
 
 
-    public List<PessoaDTO> handleTemplatePessoaWithEndereco(List<TemplatePessoa> templatePessoa) {
+    public List<PessoaDTO> handleTemplatePessoaWithEndereco(List<TemplatePessoa> templatePessoa, int numeroPagina, int tamanhoPagina) {
 
         List<Pessoa> pessoas =
 
@@ -50,7 +46,7 @@ public class TemplateService {
 
         //return
          pessoaService.salvarPessoas(pessoas);
-        return pessoaService.verTodasPessoas();
+        return pessoaService.verTodasPessoas(numeroPagina, tamanhoPagina);
     }
 
     public List<CartaoDTO> handleTemplateCartao(List<TemplateCartao> templateCartao){
@@ -85,9 +81,4 @@ public class TemplateService {
         return String.format(Constantes.URL_CARTOES + "?_quantity=%s&_seed=%s", numeroCartoes, seed);
 
     }
-
-    public List<PessoaDTO> listarPessoas(){
-        return this.pessoaService.verTodasPessoas();
-    }
-
 }

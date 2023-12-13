@@ -1,8 +1,9 @@
 package com.application.controller;
+
 import com.application.payload.TemplatePessoa;
+import com.application.payload.dto.PessoaDTO;
 import com.application.payload.request.TemplateRequestCard;
 import com.application.payload.request.TemplateRequestPessoa;
-import com.application.payload.dto.PessoaDTO;
 import com.application.service.TemplateService;
 import com.application.utils.Constantes;
 import lombok.RequiredArgsConstructor;
@@ -23,14 +24,13 @@ public class ApplicationController {
     private final TemplateService templateService;
 
 
-    @GetMapping
+    @GetMapping("")
     @CrossOrigin("*")
     public ResponseEntity<List<PessoaDTO>> verPessoas(
             @RequestParam(defaultValue = Constantes.DEFAULT_DATA_INICIO) String dataInicio,
-            @RequestParam(defaultValue = Constantes.DEFAULT_DATA_FIM)    String dataFim){
-
-
-        //FIXME USING EXCEPTIONS
+            @RequestParam(defaultValue = Constantes.DEFAULT_DATA_FIM)  String dataFim,
+            @RequestParam(defaultValue = "1") int numeroPagina,
+            @RequestParam(defaultValue = "10") int tamanhoPagina){
 
         List<TemplatePessoa> templatePessoa =
                 restTemplate.getForEntity(
@@ -41,7 +41,7 @@ public class ApplicationController {
 
         return  ResponseEntity
                 .status(HttpStatus.CREATED)
-                .body(this.templateService.handleTemplatePessoaWithEndereco(templatePessoa));
+                .body(this.templateService.handleTemplatePessoaWithEndereco(templatePessoa, numeroPagina, tamanhoPagina));
 
 
     }
@@ -62,7 +62,6 @@ public class ApplicationController {
 
 
         return ResponseEntity.status(HttpStatus.OK).body(pessoaDTOsResponse);
-
 
     }
 

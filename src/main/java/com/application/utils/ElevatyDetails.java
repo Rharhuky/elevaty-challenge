@@ -4,7 +4,7 @@ import java.util.Random;
 
 public final class ElevatyDetails {
 
-    public static final String NOME_EMPRESA = "Elevaty";
+    public static final String NOME_EMPRESA = "Elevaty - snx Payment";
     public static final String ENDERECO = "Alphaville - Baruaeri - SP - 06454-000";
     public static final String INSTAGRAM = "elevaty.tech";
     public static final String LINKEDIN = "elevaty-tech";

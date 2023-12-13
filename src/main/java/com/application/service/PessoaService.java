@@ -1,17 +1,12 @@
 package com.application.service;
 
 import com.application.exceptions.EmailInexistenteException;
-import com.application.model.Cartao;
 import com.application.model.Pessoa;
 import com.application.payload.TemplatePessoa;
 import com.application.payload.dto.PessoaDTO;
 import com.application.repository.PessoaRepository;
 import lombok.RequiredArgsConstructor;
-import lombok.SneakyThrows;
 import org.modelmapper.ModelMapper;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -56,11 +51,10 @@ public class PessoaService {
     public PessoaDTO mapTODTO(Pessoa pessoa) throws IllegalArgumentException{
         return modelMapper.map(pessoa, PessoaDTO.class);
     }
-    public List<PessoaDTO> verTodasPessoas(){
-        /*
-        Sort ordenar = Sort.by("nome").ascending();
-        Pageable paginacao = PageRequest.of(1, 10);
-        */
+    public List<PessoaDTO> verTodasPessoas(int numeroPagina, int tamanhoPagina){
+
+        //Pageable paginacao = PageRequest.of(numeroPagina, tamanhoPagina);
+
         return this.pessoaRepository.findAll().stream().map(this::mapToDTO).toList();
     }
 

@@ -28,7 +28,6 @@ public class CartaoService {
         return modelMapper.map(cartao, CartaoDTO.class);
     }
 
-    //FIXME using Exception - doesn't exist person
     public List<CartaoDTO> salvarCartoes(List<Cartao> cartoes){
 
         return this.cartaoRepository.saveAll(cartoes).stream()
