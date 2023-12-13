@@ -1,5 +1,6 @@
 package com.application.exceptions.handler;
 
+import com.application.exceptions.DataMalFormulada;
 import com.application.exceptions.EmailInexistenteException;
 import com.application.payload.DetalhesErro;
 import org.springframework.http.HttpStatus;
@@ -43,6 +44,17 @@ public class CentralExceptionHandler extends ResponseEntityExceptionHandler {
 
     }
 
+    @ExceptionHandler(DataMalFormulada.class)
+    public ResponseEntity<DetalhesErro> handleDataMalFormuladaException(DataMalFormulada exception, WebRequest webRequest){
 
+        DetalhesErro detalhesErro = DetalhesErro.builder()
+                .mensagem(exception.getMessage())
+                .rota(webRequest.getDescription(false))
+                .localDateTime(LocalDateTime.now())
+                .build();
+
+        return new ResponseEntity<>(detalhesErro, HttpStatus.BAD_REQUEST);
+
+    }
 
 }

@@ -209,7 +209,7 @@ endobj
 /Subtype /Widget
 /T (Billing to)
 /Type /Annot
-/V <436F726E656C6C205374726F73696E0A35323931204B656172612052697665720A4C616B652043796E746869612050616C6175200A34313438312D313135330A2B343330393033373332373939330A>
+/V <4C6F6E7A6F205761746572730A3936333820537461726B205061726B776179730A5265796E616275727920416C6765726961200A38313838382D363631370A2B373637333035303039313435320A>
 >>
 endobj
 14 0 obj
@@ -408,7 +408,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 1)
 /Type /Annot
-/V ($2650,85)
+/V ($1725,17)
 >>
 endobj
 25 0 obj
@@ -427,7 +427,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 2)
 /Type /Annot
-/V ($616,45)
+/V ($417,37)
 >>
 endobj
 26 0 obj
@@ -446,7 +446,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 3)
 /Type /Annot
-/V ($2142,98)
+/V ($2231,73)
 >>
 endobj
 27 0 obj
@@ -465,7 +465,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 4)
 /Type /Annot
-/V ($2658,28)
+/V ($1782,26)
 >>
 endobj
 28 0 obj
@@ -484,7 +484,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 5)
 /Type /Annot
-/V ($2407,82)
+/V ($2741,83)
 >>
 endobj
 29 0 obj
@@ -503,7 +503,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 6)
 /Type /Annot
-/V ($2878,69)
+/V ($2527,94)
 >>
 endobj
 30 0 obj
@@ -522,7 +522,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 7)
 /Type /Annot
-/V ($2252,47)
+/V ($2145,80)
 >>
 endobj
 31 0 obj
@@ -541,7 +541,7 @@ endobj
 /Subtype /Widget
 /T (Unit cost 8)
 /Type /Annot
-/V ($ 43,88)
+/V ($811,83)
 >>
 endobj
 32 0 obj
@@ -712,7 +712,7 @@ endobj
 /Subtype /Widget
 /T (Subtotal)
 /Type /Annot
-/V (15651,42)
+/V (14383,92)
 >>
 endobj
 41 0 obj
@@ -788,7 +788,7 @@ endobj
 /Subtype /Widget
 /T (Total)
 /Type /Annot
-/V (15651,42)
+/V (14383,92)
 >>
 endobj
 45 0 obj
@@ -807,7 +807,7 @@ endobj
 /Subtype /Widget
 /T (Amount 8)
 /Type /Annot
-/V ($ 43,88)
+/V ($811,83)
 >>
 endobj
 46 0 obj
@@ -826,7 +826,7 @@ endobj
 /Subtype /Widget
 /T (Amount 7)
 /Type /Annot
-/V ($2252,47)
+/V ($2145,80)
 >>
 endobj
 47 0 obj
@@ -845,7 +845,7 @@ endobj
 /Subtype /Widget
 /T (Amount 6)
 /Type /Annot
-/V ($2878,69)
+/V ($2527,94)
 >>
 endobj
 48 0 obj
@@ -864,7 +864,7 @@ endobj
 /Subtype /Widget
 /T (Amount 5)
 /Type /Annot
-/V ($2407,82)
+/V ($2741,83)
 >>
 endobj
 49 0 obj
@@ -883,7 +883,7 @@ endobj
 /Subtype /Widget
 /T (Amount 4)
 /Type /Annot
-/V ($2658,28)
+/V ($1782,26)
 >>
 endobj
 50 0 obj
@@ -902,7 +902,7 @@ endobj
 /Subtype /Widget
 /T (Amount 1)
 /Type /Annot
-/V ($2650,85)
+/V ($1725,17)
 >>
 endobj
 51 0 obj
@@ -921,7 +921,7 @@ endobj
 /Subtype /Widget
 /T (Amount 2)
 /Type /Annot
-/V ($616,45)
+/V ($417,37)
 >>
 endobj
 52 0 obj
@@ -940,7 +940,7 @@ endobj
 /Subtype /Widget
 /T (Amount 3)
 /Type /Annot
-/V ($2142,98)
+/V ($2231,73)
 >>
 endobj
 53 0 obj
@@ -1025,7 +1025,7 @@ endstream
 endobj
 57 0 obj
 <<
-/Length 232
+/Length 222
 /BBox [0.0 0.0 159.756 81.36]
 /Filter [/FlateDecode]
 /FormType 1
@@ -1041,7 +1041,9 @@ endobj
 /Type /XObject
 >>
 stream
-xœMMOÄ @ïó+æ¨1¥P®[WjâÉIÅXmº‘®÷ßÛİrh¸ñxo2Ôá7O-ÀÎÇ8áŒEç…¶˜ì`„M€úN!IPß¦cß¥ûOØM qê@¡u¢ÁğWí>iğÃhl”òvÈû©/ *¤"ó´36ÊÓb)#¤b.ÚCŠ9à[åxí)/53×§×¹ÇøŠÅk«=‡Ï¾µ¶a[Ğsâï*K‚Ø™u‘‰ªo¦Ú¹â]¶*÷+ë†µôR;­œ÷Ë³m€Øÿü{ÅV]
+xœeËNÄ0E÷ş
+/A¨iœ4qºd``H³% Ôéğ(_OA!ï||l]—şW—' ¯@8”aÁÆ"×B[L6ĞÂÊCy¦$ú(Oãû¶‰ç)ôØt ±k@¡eáĞßÃÁÅ®ıÚá!ú'ĞRHUU('°	û˜º	?¤ Ã±×V»YSf©İîCzÎÀ
+"§2¸ú¡Ï	ª”]n¼‰}îŞR?Ûã„fÎöñËcLÛ€¿öÈ¶#ç\1çøcZKœSü·Ø²–FÊš*£¦±µ‡kXş•]S
 endstream
 endobj
 58 0 obj
@@ -1307,7 +1309,7 @@ BT
 /DeviceGray cs
 0 sc
 23.9335 7.41 Td
-($2650,85) Tj
+($1725,17) Tj
 ET
 Q
 EMC
@@ -1342,7 +1344,7 @@ BT
 /DeviceGray cs
 0 sc
 29.842 7.41 Td
-($616,45) Tj
+($417,37) Tj
 ET
 Q
 EMC
@@ -1377,7 +1379,7 @@ BT
 /DeviceGray cs
 0 sc
 24.2805 7.41 Td
-($2142,98) Tj
+($2231,73) Tj
 ET
 Q
 EMC
@@ -1412,7 +1414,7 @@ BT
 /DeviceGray cs
 0 sc
 24.2485 7.41 Td
-($2658,28) Tj
+($1782,26) Tj
 ET
 Q
 EMC
@@ -1447,7 +1449,7 @@ BT
 /DeviceGray cs
 0 sc
 24.2485 7.41 Td
-($2407,82) Tj
+($2741,83) Tj
 ET
 Q
 EMC
@@ -1482,7 +1484,7 @@ BT
 /DeviceGray cs
 0 sc
 24.2485 7.41 Td
-($2878,69) Tj
+($2527,94) Tj
 ET
 Q
 EMC
@@ -1517,7 +1519,7 @@ BT
 /DeviceGray cs
 0 sc
 24.5955 7.41 Td
-($2252,47) Tj
+($2145,80) Tj
 ET
 Q
 EMC
@@ -1527,7 +1529,7 @@ endstream
 endobj
 75 0 obj
 <<
-/Length 107
+/Length 106
 /BBox [0.0 0.0 68.3365 22.0]
 /FormType 1
 /Matrix [1.0 0.0 0.0 1.0 0.0 0.0]
@@ -1551,8 +1553,8 @@ BT
 /Helv 10 Tf
 /DeviceGray cs
 0 sc
-32.9722 7.41 Td
-($ 43,88) Tj
+30.189 7.41 Td
+($811,83) Tj
 ET
 Q
 EMC
@@ -1843,7 +1845,7 @@ BT
 /DeviceGray cs
 0 sc
 45.3668 7.41 Td
-(15651,42) Tj
+(14383,92) Tj
 ET
 Q
 EMC
@@ -1974,7 +1976,7 @@ BT
 /DeviceRGB cs
 0.292 0.361 0.399 sc
 33.0976 5.256 Td
-(15651,42) Tj
+(14383,92) Tj
 ET
 Q
 EMC
@@ -2008,8 +2010,8 @@ BT
 /Helv 10 Tf
 /DeviceGray cs
 0 sc
-26.8278 7.41 Td
-($ 43,88) Tj
+24.0446 7.41 Td
+($811,83) Tj
 ET
 Q
 EMC
@@ -2044,7 +2046,7 @@ BT
 /DeviceGray cs
 0 sc
 18.9377 7.41 Td
-($2252,47) Tj
+($2145,80) Tj
 ET
 Q
 EMC
@@ -2079,7 +2081,7 @@ BT
 /DeviceGray cs
 0 sc
 18.4831 7.41 Td
-($2878,69) Tj
+($2527,94) Tj
 ET
 Q
 EMC
@@ -2114,7 +2116,7 @@ BT
 /DeviceGray cs
 0 sc
 18.4831 7.41 Td
-($2407,82) Tj
+($2741,83) Tj
 ET
 Q
 EMC
@@ -2149,7 +2151,7 @@ BT
 /DeviceGray cs
 0 sc
 18.9377 7.41 Td
-($2658,28) Tj
+($1782,26) Tj
 ET
 Q
 EMC
@@ -2184,7 +2186,7 @@ BT
 /DeviceGray cs
 0 sc
 19.7693 7.41 Td
-($2650,85) Tj
+($1725,17) Tj
 ET
 Q
 EMC
@@ -2219,7 +2221,7 @@ BT
 /DeviceGray cs
 0 sc
 25.0845 7.41 Td
-($616,45) Tj
+($417,37) Tj
 ET
 Q
 EMC
@@ -2254,7 +2256,7 @@ BT
 /DeviceGray cs
 0 sc
 19.6396 7.41 Td
-($2142,98) Tj
+($2231,73) Tj
 ET
 Q
 EMC
@@ -3068,7 +3070,7 @@ endstream
 endobj
 116 0 obj
 <<
-/Length 322
+/Length 320
 /ID [(some) <9DC79D205C2D77D0E8553A8340BCC46B>]
 /Info 5 0 R
 /Root 1 0 R
@@ -3079,9 +3081,10 @@ endobj
 /Filter /FlateDecode
 >>
 stream
-xœÁK(Ã ÀáÿÏ™Zb&oæ9=¼æÚ„Èd–çX6y„ØfY+%‘£j9²ò¸ %‡•ìè1å&m\Ü|Ÿ bÄ3b=	.‚HtHöH\Dj#é‘d%É¿¤\“ºNš‘t5"2d’å!»™Ù9'ä.’×H¾ˆü ‡Ú#StA±›¥1”úQì¢4¡JGõ‚ÚG™‹r-"*¨Ü§Ê‚F&DŸºê¿hğÓt…6•æ[Z2iİ -L»K:“Ğ/ÑuCw4†nz0~Ò«¤o™ş;~’a20¼ÊÈæFã±h±n1v‹-Äx.n&ï™Šcz™cf¿™«fŞÃÂKçØc°ÏbÆQ‹ãgNNîMÖæñFâİæUÁ»Š÷‚;ÿş^mY[
+xœÁK(ƒ Àñï/ÉJí²1¯mŒy.y„™g3!oæbÌ²G´v’œ$.H‘4ÊİA+%‰ö¥](r#Êï'‚!DL¥ˆà@Ùj•ŒhAÜ#q…¤i’oI‘Hù"õõ:i]¤‘¡ ãÌ3²hZÑŠhŸÑ‘í&§½ı=¹ûäMb0`øÄxIşõHñHa
+w(Ä¤ÆôDñ9%~Jë(SPvGùc˜s1P¦ÊLõµaêNi°ôÑxA“Šæ -QÚh?Á–@Çö¿tYéŞ¢ç‘^}Nú/ˆ2”È°•£8c¢œÉ S!¦_™IfÖÅÜó±,Øpî²(ãÊgÙûÏ1?¼ãxoğIø¶ñıà7â·°>Åá7G¼hˆèˆ,!o"¿ÿ¯Z
 endstream
 endobj
 startxref
-82243
+82230
 %%EOF

@@ -9,7 +9,11 @@ import com.application.repository.PessoaRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.modelmapper.ModelMapper;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.Objects;
 
@@ -27,8 +31,6 @@ public class PessoaService {
                 .stream()
                 .map(this::mapToDTO)
                 .toList();
-
-
     }
 
     public List<Pessoa> mapToPessoa(List<TemplatePessoa> templatePessoa){
@@ -45,23 +47,20 @@ public class PessoaService {
         if(Objects.isNull(pessoa))
             throw new EmailInexistenteException(email);
         return mapTODTO(pessoa);
-
-
     }
 
     public PessoaDTO mapToDTO(Pessoa pessoa){
         return modelMapper.map(pessoa, PessoaDTO.class);
     }
 
-    /*public List<PessoaDTO> mapTODTO(List<Pessoa> pessoas){
-        return pessoas.stream().map(this::mapToDTO).toList();
-    }
-    */
-
     public PessoaDTO mapTODTO(Pessoa pessoa) throws IllegalArgumentException{
         return modelMapper.map(pessoa, PessoaDTO.class);
     }
     public List<PessoaDTO> verTodasPessoas(){
+        /*
+        Sort ordenar = Sort.by("nome").ascending();
+        Pageable paginacao = PageRequest.of(1, 10);
+        */
         return this.pessoaRepository.findAll().stream().map(this::mapToDTO).toList();
     }
 

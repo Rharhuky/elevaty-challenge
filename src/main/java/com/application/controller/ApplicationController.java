@@ -29,6 +29,7 @@ public class ApplicationController {
             @RequestParam(defaultValue = Constantes.DEFAULT_DATA_INICIO) String dataInicio,
             @RequestParam(defaultValue = Constantes.DEFAULT_DATA_FIM)    String dataFim){
 
+
         //FIXME USING EXCEPTIONS
 
         List<TemplatePessoa> templatePessoa =
@@ -64,13 +65,5 @@ public class ApplicationController {
 
 
     }
-    @CrossOrigin("*")
-    @GetMapping("/list")
-    public ResponseEntity<List<PessoaDTO>> listarTodasPessoas(){
-
-        return ResponseEntity.ok(this.templateService.listarPessoas());
-
-    }
-
 
 }

@@ -7,6 +7,7 @@ import com.application.utils.ElevatyDetails;
 import jakarta.servlet.http.HttpServletRequest;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
+import org.apache.tomcat.util.bcel.Const;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.http.HttpHeaders;
@@ -40,7 +41,7 @@ public class FaturaService {
 
     public ResponseEntity<Resource> obterPDF(HttpServletRequest servletRequest) throws FileNotFoundException {
 
-        Path filePath = fileStorageLocation.resolve(Paths.get("faturas/newFatura.pdf").toAbsolutePath()).normalize();
+        Path filePath = fileStorageLocation.resolve(Paths.get(Constantes.DEFAULT_NEW_FATURA_PDF_PATH).toAbsolutePath()).normalize();
         if (!Files.exists(filePath)) {
             throw new FileNotFoundException();
         }
@@ -55,7 +56,7 @@ public class FaturaService {
             MediaType mediaType = MediaType.parseMediaType(contentType);
             return ResponseEntity.ok()
                     .contentType(mediaType)
-                    .header(HttpHeaders.CONTENT_DISPOSITION, "inline; Nome do Arquivo=\"" + resource.getFilename() + "\"")
+                    .header(HttpHeaders.CONTENT_DISPOSITION, "inline;filename=\"" + "newInvoice" + "\"")
                     .body(resource);
 
 
@@ -74,7 +75,7 @@ public class FaturaService {
         PDAcroForm acroForm =  document.getDocumentCatalog().getAcroForm();  //catalog.getAcroForm();
 
         if(preencherFatura(acroForm, pessoa))
-            document.save("faturas/newFatura.pdf");
+            document.save(Constantes.DEFAULT_NEW_FATURA_PDF_PATH);
 
         document.close();
 

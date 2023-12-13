@@ -1,5 +1,6 @@
 package com.application.service;
 
+import com.application.exceptions.DataMalFormulada;
 import com.application.model.Cartao;
 import com.application.model.Endereco;
 import com.application.model.Pessoa;
@@ -14,6 +15,8 @@ import org.springframework.stereotype.Service;
 import org.yaml.snakeyaml.scanner.Constant;
 
 import java.net.URL;
+import java.time.LocalDate;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Objects;
 import java.util.Random;
@@ -45,8 +48,9 @@ public class TemplateService {
                     return novaPessoa;
                 }).toList();
 
-        return pessoaService.salvarPessoas(pessoas);
-
+        //return
+         pessoaService.salvarPessoas(pessoas);
+        return pessoaService.verTodasPessoas();
     }
 
     public List<CartaoDTO> handleTemplateCartao(List<TemplateCartao> templateCartao){
@@ -65,8 +69,10 @@ public class TemplateService {
         return pessoaDTO;
     }
 
-    public String requestPersonsURL(String dataInicio, String dataFim){
-
+    public String requestPersonsURL(String dataInicio, String dataFim) throws DataMalFormulada {
+        if(LocalDate.parse(dataInicio).isAfter(LocalDate.parse(dataFim))){
+            throw new DataMalFormulada("DATA INICIAL DEVE SER ANTERIOR A FINAL");
+        }
         return String.format(Constantes.URL_PESSOAS + "?_birthday_start=%s&_birthday_end=%s",dataInicio, dataFim);
 
     }

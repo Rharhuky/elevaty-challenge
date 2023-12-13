@@ -18,7 +18,7 @@ public class ConfiguracaoModelMapper {
      * Esse Bean serve para configurar o ModelMapper.
      * Além disso, possui lógicas de configurações para mapeamento entre algumas
      * entidades como {@link Pessoa} e {@link TemplatePessoa}.
-     * @return
+     * @return {@link ModelMapper}
      */
     @Bean
     public ModelMapper modelMapper(){
