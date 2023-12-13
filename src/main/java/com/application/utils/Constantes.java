@@ -8,5 +8,5 @@ public class Constantes {
     public static final String DEFAULT_DATA_FIM = "2023-01-01";
     public static final String DEFAULT_QUANTIDADE_CARTOES = "2";
     public static final String DEFAULT_FATURA_PDF = "fatura.pdf";
-    public static final String DEFAULT_FATURA_PDF_PATH = "faturas/fatura.pdf";
+    public static final String DEFAULT_FATURA_PDF_PATH = "faturas/fatura.pdf" ;
 }
