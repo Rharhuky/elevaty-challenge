@@ -2,10 +2,11 @@ package com.application.utils;
 
 public final class Elevaty {
 
-    public static final String COMPANY_NAME = "Elevaty";
-    public static final String address = "";
-    public static final String instagram = "";
-    public static final String linkedin = "";
+    public static final String NOME_EMPRESA = "Elevaty";
+    public static final String ENDERECO = "Alphaville - Baruaeri - SP - 06454-000";
+    public static final String INSTAGRAM = "www.instagram.com/elevaty.tech";
+    public static final String LINKEDIN = "https://www.linkedin.com/company/elevaty-tech/";
+    public static final String ATENDIMENTO = "https://www.snxpay.com/";
 
 
 }

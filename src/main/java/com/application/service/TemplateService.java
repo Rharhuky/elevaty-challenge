@@ -49,22 +49,20 @@ public class TemplateService {
 
     }
 
-    public List<PessoaDTO> handleTemplateCartao(List<TemplateCartao> templateCartao){
+    public List<CartaoDTO> handleTemplateCartao(List<TemplateCartao> templateCartao){
 
         List<CartaoDTO> cartoes =
                 templateCartao.stream()
                         .map((cartao) -> modelMapper.map(cartao, CartaoDTO.class))
                         .toList();
 
-        return verDetalhes(cartoes);
-
-
+        return cartoes;
     }
 
-    public List<PessoaDTO> verDetalhes(List<CartaoDTO> cartaoDTOS){
-        List<PessoaDTO> pessoaDTOS = this.pessoaService.verTodasPessoas();
-        pessoaDTOS.forEach(pessoaDTO -> pessoaDTO.setCartoes(cartaoDTOS));
-        return pessoaDTOS;
+    public PessoaDTO verDetalhes(List<CartaoDTO> cartaoDTOS, String emailPessoa){
+        PessoaDTO pessoaDTO = this.pessoaService.verPessoaPeloEmail(emailPessoa);
+        pessoaDTO.setCartoes(cartaoDTOS);
+        return pessoaDTO;
     }
 
     public String requestPersonsURL(String dataInicio, String dataFim){
@@ -81,4 +79,9 @@ public class TemplateService {
         return String.format(Constantes.URL_CARTOES + "?_quantity=%s&_seed=%s", numeroCartoes, seed);
 
     }
+
+    public List<PessoaDTO> listarPessoas(){
+        return this.pessoaService.verTodasPessoas();
+    }
+
 }

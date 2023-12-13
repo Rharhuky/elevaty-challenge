@@ -1,22 +1,15 @@
 package com.application.service;
 
 import com.application.configuracao.ConfiguracaoFatura;
-import com.application.exceptions.EmailInexistenteException;
-import com.application.model.Pessoa;
 import com.application.payload.dto.PessoaDTO;
 import com.application.utils.Constantes;
 import jakarta.servlet.http.HttpServletRequest;
-import lombok.RequiredArgsConstructor;
-import lombok.SneakyThrows;
 import org.apache.pdfbox.pdmodel.PDDocument;
-import org.apache.pdfbox.pdmodel.PDDocumentCatalog;
 import org.apache.pdfbox.pdmodel.interactive.form.PDAcroForm;
-import org.apache.pdfbox.pdmodel.interactive.form.PDField;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
-import org.springframework.http.RequestEntity;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -27,6 +20,8 @@ import java.net.MalformedURLException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Objects;
 
 
@@ -91,9 +86,9 @@ public class FaturaService {
 
             acroForm.getField("Your company name").setValue("Elevaty");
             acroForm.getField("Comapny address").setValue("Alphaville - Baruaeri - SP - 06454-000");
-            acroForm.getField("Company contact details").setValue("www.instagram.com/elevaty.tech\nhttps://www.linkedin.com/company/elevaty-tech/");
+            acroForm.getField("Company contact details").setValue("Instagram: elevaty.tech\nLinkedin: elevaty-tech");
             acroForm.getField("Billing to").setValue(pessoaDTO.getEmail());
-            acroForm.getField("Invoice Date:").setValue("rapaz n funciona");
+            acroForm.getField("Invoice Date:").setValue(LocalDate.now().toString());
             acroForm.getField("Invoice number").setValue("00001");
             return true;
 

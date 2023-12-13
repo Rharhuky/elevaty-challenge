@@ -22,5 +22,4 @@ public class EnderecoDTO {
     private Double latitude;
     private Double longitude;
 
-    private PessoaDTO pessoa;
 }

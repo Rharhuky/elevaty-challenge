@@ -57,22 +57,35 @@ public class ApplicationController {
                 .status(HttpStatus.CREATED)
                 .body(this.templateService.handleTemplatePessoaWithEndereco(templatePessoa));
 
+
     }
 
-    @GetMapping("/details")
-    public ResponseEntity<List<PessoaDTO>> verDetalhes(
-            @RequestParam(defaultValue = Constantes.DEFAULT_QUANTIDADE_CARTOES) String quantidadeCartoes){
 
-        List<PessoaDTO> pessoaDTOsResponse = this.templateService.handleTemplateCartao(
-                this.restTemplate.getForEntity(
-                                templateService.requestCardsURL(quantidadeCartoes),
-                        TemplateRequestCard.class)
-                        .getBody()
-                        .getData());
+    @GetMapping("/details/{email:.+}")
+    @CrossOrigin("*")
+    public ResponseEntity<PessoaDTO> verDetalhes(
+            @RequestParam(defaultValue = Constantes.DEFAULT_QUANTIDADE_CARTOES) String quantidadeCartoes,
+            @PathVariable String email){
+
+        PessoaDTO pessoaDTOsResponse =
+                this.templateService.verDetalhes(
+                        this.templateService.handleTemplateCartao(
+                                this.restTemplate.getForEntity(this.templateService.requestCardsURL(quantidadeCartoes), TemplateRequestCard.class)
+                                        .getBody()
+                                        .getData()), email);
+
 
         return ResponseEntity.status(HttpStatus.OK).body(pessoaDTOsResponse);
 
 
     }
+    @CrossOrigin("*")
+    @GetMapping("/list")
+    public ResponseEntity<List<PessoaDTO>> listarTodasPessoas(){
+
+        return ResponseEntity.ok(this.templateService.listarPessoas());
+
+    }
+
 
 }

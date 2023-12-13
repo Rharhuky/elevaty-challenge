@@ -80,4 +80,11 @@ class FaturaServiceTest {
 
 
     }
+
+    @Test
+    void camposPDF(){
+
+        
+
+    }
 }
