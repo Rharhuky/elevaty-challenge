@@ -23,6 +23,6 @@ public class EnderecoDTO {
 
     @Override
     public String toString() {
-        return String.format("%s %s\n%s %s \n%s",numero,nomeRua, cidade, pais, zipCode);
+        return String.format("%s, %s\n%s, %s \n%s",numero,nomeRua, cidade, pais, zipCode);
     }
 }
