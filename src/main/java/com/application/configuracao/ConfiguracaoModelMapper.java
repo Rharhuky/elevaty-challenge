@@ -1,8 +1,6 @@
 package com.application.configuracao;
 
-import com.application.model.Cartao;
 import com.application.model.Endereco;
-import com.application.model.Genero;
 import com.application.model.Pessoa;
 import com.application.payload.TemplateCartao;
 import com.application.payload.TemplateEndereco;
@@ -12,15 +10,9 @@ import org.modelmapper.ModelMapper;
 import org.modelmapper.PropertyMap;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.client.RestTemplate;
 
 @Configuration
-public class Configuracao {
-
-    @Bean
-    public RestTemplate restTemplate(){
-        return new RestTemplate();
-    }
+public class ConfiguracaoModelMapper {
 
     /**
      * Esse Bean serve para configurar o ModelMapper.

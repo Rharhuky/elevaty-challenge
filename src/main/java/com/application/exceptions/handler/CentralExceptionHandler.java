@@ -1,5 +1,6 @@
-package com.application.exceptions;
+package com.application.exceptions.handler;
 
+import com.application.exceptions.EmailInexistenteException;
 import com.application.payload.DetalhesErro;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

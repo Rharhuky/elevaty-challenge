@@ -1,5 +1,6 @@
-package com.application.payload;
+package com.application.payload.request;
 
+import com.application.payload.TemplatePessoa;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
